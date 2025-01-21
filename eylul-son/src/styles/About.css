@@ -1,0 +1,316 @@
+/* Body ve HTML için varsayılan ayarlar */
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Resmi içeren div */
+.image-container {
+  width: 100vw;
+  /* Ekranın tamamını kaplayacak genişlik */
+  height: 100vh;
+  /* Ekranın tamamını kaplayacak yükseklik */
+  display: flex;
+  justify-content: center;
+  /* İçeriği yatay olarak ortala */
+  align-items: center;
+  position: relative;
+  /* İçeriği dikey olarak ortala */
+}
+
+/* Resim ayarları */
+.about-pic {
+  width: 100vw;
+  /* Ekranın tamamını kaplayacak genişlik */
+  /* Ekranın tamamını kaplayacak yükseklik */
+  object-fit: cover;
+  /* Resmi kırpılmadan ekrana tam oturt */
+}
+
+.title-services {
+
+
+  margin-top: -330px;
+  margin-left: 100px;
+
+
+}
+
+.picture-main {
+  width: 788px;
+  height: 167px;
+
+  padding: 48px 60px 58px 60px;
+  gap: 10px;
+  border-radius: 29px;
+  opacity: 0px;
+  background-color: #FFFFFFD9;
+  backdrop-filter: blur(1px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  /* Mutlak konumlandırma */
+
+  transform: translate(20%, -120%);
+  /* Kesin ortalama */
+
+}
+
+.crea {
+
+  margin-top: 45px;
+  font-family: Cabin sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  position: absolute;
+
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+@media (max-width: 1768px) {
+  .picture-main {
+    width: 540px;
+    height: 65px;
+    padding: 50px;
+
+  }
+
+  h1 {
+
+    font-size: 30px;
+  }
+
+  .title-services {
+    margin-top: -245px;
+    margin-left: -15px;
+
+  }
+}
+
+.our-vision {
+
+  top: 912.8px;
+  left: 360px;
+  gap: 122px;
+  opacity: 0px;
+
+
+
+}
+
+.our {
+  margin-top: -100px;
+  margin-left: 1250px;
+position: absolute;
+
+
+}
+
+.our-vision h1 {
+  margin-left: 330px;
+  font-family: Cabin sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 52.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.our-vision p {
+  margin-left: 330px;
+  margin-top: 15px;
+}
+
+.tik {
+  margin-left: 290px;
+  margin-top: -120px;
+  position: absolute;
+
+
+}
+
+.tik1 {
+  margin-left: 290px;
+  margin-top: -65px;
+  position: absolute;
+
+}
+
+.num {
+  margin-left: 450px;
+  margin-top: 120px;
+  font-family: Cabin sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+.title-services-a{
+position: absolute;
+  margin-left: 350px;
+  margin-top: -100px;
+  font-family: Lato sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.6px;
+letter-spacing: 0.190em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+
+}
+.creative{
+
+opacity: 0px;
+background-color: #F5F5F5;
+
+}
+.info-card {
+
+
+  /* Yazı rengi */
+ 
+  /* Yuvarlatılmış köşeler */
+  padding: 20px;
+
+display: flex;
+flex-direction: row;
+  /* İç boşluk */
+margin-top: 125px;
+border-radius: 30px;
+margin-left: 65px;
+
+}
+
+
+.info-card-title{
+  margin-top: 45px;
+ margin-bottom: -105px;
+ margin-left: -45px;
+}
+
+/* İkon stilini düzenleyelim */
+.info-card-icon {
+  
+
+  /* İkon boyutu */
+  color: #595566;
+  /* İkon rengi */
+  margin-left: -55px;
+  margin-top: -5px;
+ padding-left: 45px;
+ 
+
+
+}
+
+.title-services-b{
+position: absolute;
+
+border-radius: 20px ;
+opacity: 0px;
+font-family: Lato sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.6px;
+letter-spacing: 0.145em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 45px;
+padding-left: 395px;
+
+}
+.orta{
+  margin-top: 145px;
+  display: flex;
+flex-direction: row;
+padding: 165px;
+margin-left: 155px;
+
+
+}
+.creative h1{
+position: absolute;
+margin-top: 105px;
+font-family: Cabin sans-serif;
+font-size: 45px;
+font-weight: 700;
+line-height: 52.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+padding-left: 395px;
+}
+.creative p{
+
+  margin-top: 140px;
+margin-left: -65px;
+  color: black;
+}
+.capit{
+  position: absolute;
+padding-top: 45px;
+padding-left: 455px;
+
+}
+.video{
+margin-left: 500px;
+
+}
+.title-services-c{
+
+  margin-left: 900px;
+ 
+  font-family: Lato sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.6px;
+letter-spacing: 0.190em;
+text-align: center;
+width: 300px;
+margin-top: 100px;
+margin-bottom: 45px;
+}
+.cont h1{
+
+  font-family: Cabin sans-serif;
+font-size: 45px;
+font-weight: 700;
+line-height: 52.2px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+.cont p{
+  font-family: Lato sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.6px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #595566;
+  margin-top: 45px;
+}
+.consult-card{
+  margin-left: 400px;
+  margin-top: 50px;
+}

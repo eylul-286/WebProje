@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.ser-icon{
+
+  width: 100%;
+  /* Ekranın tamamını kaplayacak genişlik */
+
+  
+
+}
+.title-services-7{
+  position: absolute;
+
+width: 250px;
+
+margin-top:-150px ;
+font-family: Lato sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.6px;
+letter-spacing: 0.295em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: -25px;
+}
+.service-4{
+  position: absolute;
+  background-color: antiquewhite;
+  width:459px;
+  height: 199px;
+  top: 341.54px;
+  left: 360px;
+  padding: 48px 60px 48px 60px;
+  gap: 10px;
+  border-radius: 29px;
+  opacity: 0px;
+
+
+background-color: #FFFFFFD9;
+backdrop-filter: blur(1px);
+
+
+}
+.service-single h1{
+
+/* Mutlak konumlandırma */
+font-family: Cabin sans-serif;
+font-size: 50px;
+font-weight: 700;
+line-height: 58px;
+margin-top: 45px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+
+.title-services-s{
+  width: 280px;
+  height: 30px;
+  font-family: Lato sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.6px;
+letter-spacing: 0.145em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-left: 400px;
+margin-top: 100px;
+
+}
+
+
+.creative-service h1{
+  margin-left: 400px;
+}
+.capit{
+  margin-left: -50px;
+
+
+}
+
+.orta-service{
+display: flex;
+margin-left: 300px;
+margin-top: 45px;
+
+}
+.get{
+  width: Fixed (167px)px;
+height: Hug (59px)px;
+padding: 15px 34px 15px 34px;
+gap: 10px;
+border-radius: 42px ;
+opacity: 0px;
+color: #FFFFFFD9;
+background-color: black;
+display: flex;
+margin-left: auto;
+margin-right: 450px;
+
+}
+.main-s{
+
+margin-top: 200px;
+top: 1663px;
+margin-left: 265px;
+gap: 82px;
+opacity: 0px;
+
+}
+.main-s h1{
+  position: absolute;
+ margin-left: 900px;
+ margin-top: -300px;
+
+}
+.our-s{
+  margin-left: 300px;
+}
+.main-s p{
+
+margin: 210px;
+margin-left: 900px;
+
+
+}
+.p p{
+ margin-top: -190px;
+}
+.tik2{
+ position: absolute;
+  margin-left:850px;
+  margin-top: -380px;
+
+}
+.tik3{
+  position: absolute;
+  margin-left:850px;
+  margin-top: -270px;
+
+}
+.marka-s{
+  display: flex;
+  justify-content: space-around;
+  /* İkonlar arasında eşit boşluk bırakır */
+  align-items: center;
+  /* Dikeyde hizalar */
+  flex-wrap: nowrap;
+  /* Tek satırda kalmasını sağlar */
+  gap: 70px;
+  /* İkonlar arasına boşluk ekler */
+  margin-bottom: 200px;
+
+
+}
+.cont-s{
+  background-color: black;
+  width: Hug (1,620px)px;
+height: Hug (871px)px;
+top: 2397px;
+padding: 152px 488px 152px 488px;
+gap: 10px;
+opacity: 0px;
+
+}
+.cont-s h1{
+  color: white;
+  font-family: Cabin sans-serif;
+font-size: 45px;
+font-weight: 700;
+line-height: 52.2px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.ss{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contacticon{
+margin-left: 1100px;
+position: absolute;
+margin-top: -680px;
+background-color: white;
+}
+.contactU{
+  margin-top: 120px;
+}
+
+
+
+
+

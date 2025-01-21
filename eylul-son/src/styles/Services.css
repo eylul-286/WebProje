@@ -1,0 +1,326 @@
+/* Body ve HTML için varsayılan ayarlar */
+body {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+/* Resmi içeren div */
+
+
+/* Resim ayarları */
+.Services{
+  width: 100%;
+  /* Ekranın tamamını kaplayacak genişlik */
+  /* Ekranın tamamını kaplayacak yükseklik */
+  object-fit: cover;
+  /* Resmi kırpılmadan ekrana tam oturt */
+}
+.title-services-3{
+  margin-top: -150px;
+  margin-left: -500px;
+
+}
+
+.picture-main {
+  width: 788px;
+  height: 167px;
+
+  padding: 48px 60px 58px 60px;
+  gap: 10px;
+  border-radius: 29px;
+  opacity: 0px;
+  background-color: #FFFFFFD9;
+  backdrop-filter: blur(1px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  /* Mutlak konumlandırma */
+
+  transform: translate(20%, -120%);
+  /* Kesin ortalama */
+
+}
+.title-services-5{
+position: absolute;
+margin-left:1000px;
+margin-top: 125px;
+
+
+
+}
+.title-services-4{
+  width: 150px;
+  height: 24px;
+margin-bottom: -300px;
+margin-left: auto;
+margin-right: auto;
+  font-family: Lato sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.6px;
+letter-spacing: 0.295em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  
+
+}
+.crea {
+
+  margin-top: 45px;
+  font-family: Cabin sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  position: absolute;
+
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+@media (max-width: 1768px) {
+  .picture-main {
+    width: 540px;
+    height: 65px;
+    padding: 50px;
+
+  }
+
+  h1 {
+
+    font-size: 30px;
+  }
+
+
+}
+
+.trading{
+
+margin: 151px 261px;
+}
+.trading-icon{
+
+  margin-top: 200px;
+ 
+}
+.trading h1{
+  margin-left: 1000px;
+  margin-top: -500px;
+
+  font-family: Cabin sans-serif; 
+font-size: 45px;
+font-weight: 700;
+line-height: 52.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.bank1 h4{
+  margin-left: -145px;
+
+}
+.bank-icon,.transport-icon,.trad-icon{
+  position: absolute;
+  margin-top: 15px;
+
+
+}
+.bank1,.transport,.trad{
+  margin-top: 65px;
+}
+.bank1 h4,.transport h4,.trad h4{
+  margin-left:40px;
+}
+.bank1 p,.transport p,.trad p{
+margin-left: 45px;
+}
+
+
+
+
+/* Pricing Plan Section */
+.pricing-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  z-index: 0;
+  
+}
+
+.pricing-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  z-index: 0;
+  
+}
+
+.pricing-card {
+  background-color: #fff;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s;
+ 
+}
+.pricing-card-basic-plan{
+  background-color: #00b300;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+}
+.title-services-6{
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 24px;
+  
+}
+.pricing-card-header h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.pricing-card-header p {
+  font-size: 14px;
+  color: #f9f9f9;
+  margin-top: 15px;
+}
+
+.pricing-card-price {
+  margin: 20px 0;
+
+  
+}
+
+.pricing-card-price h1 {
+  font-size: 48px;
+
+  color: #f9f9f9;
+  margin-left: -175px;
+  margin-top: 35px;
+}
+
+.pricing-card-price p{
+  font-size: 14px;
+margin-bottom: 45px;
+  color: #f9f9f9;
+  margin-left:115px;
+  background-color: #3E3E3E;
+  border-radius: 25px;
+  margin-top: -45px;
+  width: 120px;
+  height: 30px;
+  font-family: Lato sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.6px;
+letter-spacing: 0.145em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  padding: 0px 15px 0px 15px;
+
+  
+
+}
+
+.pricing-card-features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  color: #333;
+  font-size: 14px;
+
+
+}
+
+.pricing-card-features li {
+  margin: 10px 0;
+  color: #333;
+  margin-top: 25px;
+}
+
+.pricing-button {
+background-color: #f4b400;
+  border: none;
+  padding: 15px 60px;
+  font-size: 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: #333;
+  border: 1px solid #D6D6D6
+}
+
+.pricing-button:hover {
+  background-color: #d49600;
+  border-radius:30px ;
+}
+
+
+.basic-icon{
+  margin-left:-10px ;
+  margin-top: -15px;
+}
+
+.pricing-card {
+  position: relative; /* Üstteki öğeleri pozisyonlamak için gereklidir */
+  overflow: hidden; /* Gereksiz taşan öğeleri gizler */
+
+  
+}
+
+.basic-ana {
+  position: relative;
+  z-index: 0; /* Yazılar için üst katman */
+  
+  
+}
+
+.basic-icon {
+  position: absolute; /* Resmi arka plana yerleştiriyoruz */
+  top: 0; /* Üstten sıfırlıyoruz */
+  left: 0; /* Soldan sıfırlıyoruz */
+  width: 100%; /* Resmin genişliği %100 olacak */
+
+
+
+
+}
+
+.pricing-card-header, 
+.pricing-card-price, 
+.pricing-card-features, 
+.pricing-button {
+  position: relative; /* Yazılar için z-index'e etkisi olabilmesi için relative konumlama */
+  z-index: 2; /* Yazıları resmin önünde gösteriyoruz */
+color: #f9f9f9;
+}
+
+/* Ekstra stil, görselin daha dikkat çekici olmasını sağlayabilir */
+
+
+

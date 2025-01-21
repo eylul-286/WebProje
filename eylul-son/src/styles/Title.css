@@ -1,0 +1,58 @@
+/* Genel kutu stilini belirleyin */
+.custom-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 28px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+/* Farklı boyutlar için stiller */
+.custom-box.small {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.custom-box.medium {
+  font-size: 18px;
+  padding: 15px;
+}
+
+.custom-box.large {
+  font-size: 24px;
+  padding: 20px;
+}
+
+/* Başlık stilini belirleyin */
+.custom-box-title {
+  font-weight: 700;
+  color: inherit; /* Başlık rengi dışarıdan gelen `color` prop'unu alacak */
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+}
+
+/* Arka plan ve metin rengi değiştiğinde kutuya hover efekti ekleyin */
+.custom-box:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Küçük ekranlar için medya sorgusu */
+@media (max-width: 768px) {
+  .custom-box.small {
+    font-size: 12px; /* Küçük ekranlarda küçük başlık fontunu daha da küçült */
+    padding: 18px;
+  }
+
+  .custom-box.medium {
+    font-size: 16px; /* Orta boy başlık için font büyüklüğünü azalt */
+    padding: 12px;
+  }
+
+  .custom-box.large {
+    font-size: 20px; 
+    padding: 12px;
+  }
+}

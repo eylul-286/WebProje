@@ -1,0 +1,189 @@
+
+.case-icon{
+    width: 100%;
+    object-fit: cover;
+}
+.team-title1{
+    width: 433px;
+    height:199px;
+    top: 341px;
+    left: 322px;
+    padding: 48px 60px 48px 60px;
+    gap: 10px;
+    border-radius: 29px ;
+    opacity: 0px;
+    background-color: #FFFFFFD9;
+    backdrop-filter: blur(1px);
+margin-top: -290px;
+margin-left: 300px;
+
+
+
+    
+}
+
+.case{
+    font-family: Cabin sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+margin-top: 20PX;
+    
+
+}
+.title-services-9{
+    font-family: Lato sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.6px;
+    letter-spacing: 0.178em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.bela h2{
+    color: white;
+    margin-top: -50px;
+   
+}
+.bela p{
+    color: white;
+    margin-top: -20px;
+    font-family: Lato sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 23.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.pictures {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Büyük ekranlarda 3 sütun */
+    gap: 15px;
+    border-radius: 30px;
+  
+  
+  }
+  
+  .pictures img {
+    object-fit: cover;
+    /* Resimlerin tam olarak kapsayıcıya oturmasını sağlıyoruz */
+  
+  }
+  
+  .dis-cerceve1 {
+    background-color: white;
+    width: 1100px;
+    height: 763px;
+    margin-top: 200px;
+    margin-left: 450px;
+    gap: 10px;
+    border-radius: 30px;
+  
+  }
+  
+  /* Media Queries: Ekran küçüldükçe stil değişiklikleri */
+  @media (max-width: 1200px) {
+    .example-page h2 {
+      margin-left: 200px;
+      font-size: 35px;
+      margin-top: -300px;
+    }
+  
+    .proccess {
+      margin-left: 200px;
+      margin-top: -180px;
+    }
+  
+    .dis-cerceve1 {
+      width: 900px;
+      left: 100px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .example-page h2 {
+      margin-left: 100px;
+      font-size: 30px;
+      margin-top: -200px;
+    }
+  
+    .proccess {
+      margin-left: 100px;
+      margin-top: -150px;
+    }
+  
+    .dis-cerceve1 {
+      width: 700px;
+      height: 600px;
+      left: 50px;
+    }
+  
+    .pictures {
+      grid-template-columns: repeat(2, 1fr);
+      /* 2 sütun */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .example-page h2 {
+      margin-left: -50px;
+      font-size: 24px;
+      margin-top: -150px;
+    }
+  
+    .proccess {
+      margin-left: 50px;
+      margin-top: -120px;
+    }
+  
+    .dis-cerceve1 {
+      width: 500px;
+      height: 500px;
+      left: 20px;
+    }
+  
+    .pictures {
+      grid-template-columns: 1fr;
+      /* Küçük ekranlarda tek sütun */
+    }
+  }
+  
+  .bank{
+    width: 1100px;
+    height: 97px;
+    display: flex;
+   
+    gap: 10px;
+    border-radius: 30px ;
+    opacity: 0px;
+    
+background-color: black;
+margin-top: 200px;
+margin-bottom: -100px;
+margin-left: 450px;
+
+  }
+  .all{
+text-decoration: underline;
+color: #FFCC4A;
+  }
+  .bank ul{
+display: flex;
+gap: 60px;
+
+    font-family: Cabin sans-serif;
+font-size: 25px;
+font-weight: 600;
+line-height: 29px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }

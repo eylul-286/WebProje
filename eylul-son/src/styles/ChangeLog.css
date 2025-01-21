@@ -1,0 +1,117 @@
+
+.change-icon{
+    width: 100%;
+    object-fit: cover;
+}
+.team-title2{
+
+    width: 433px;
+    height:199px;
+    top: 341px;
+    left: 322px;
+    padding: 48px 60px 48px 60px;
+    gap: 10px;
+    border-radius: 29px ;
+    opacity: 0px;
+    background-color: #FFFFFFD9;
+    backdrop-filter: blur(1px);
+margin-top: -290px;
+margin-left: 300px;
+
+
+
+    
+}
+
+
+.change{
+
+    font-family: Cabin sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+margin-top: 20px;
+
+    
+
+}
+.title-services-10{
+    font-family: Lato sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.6px;
+    letter-spacing: 0.178em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.version1{
+    background-color:black;
+    width: 1200px;
+height: 396px;
+top: 885px;
+left: 360px;
+gap: 0px;
+opacity: 0px;
+margin-top: 200px;
+border-radius:45px ;
+display: flex;
+margin-left: 400px;
+margin-bottom: 200px;
+
+
+
+
+}
+
+.version1 h1{
+    color: white;
+    font-family: Cabin sans-serif;
+font-size: 45px;
+font-weight: 700;
+line-height: 52.2px;
+text-align: left;
+text-underline-position: from-font;
+
+position: absolute;
+margin-top: 155px;
+margin-left: 400px;
+
+
+}
+.initial{
+    position: absolute;
+    width: Hug (381px)px;
+height: Hug (67px)px;
+padding: 24px 42px 24px 42px;
+gap: 10px;
+border-radius: 54px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background-color: white;
+
+margin-left: 700px;
+margin-top: 150px;
+
+
+}
+.initial p{
+    color: rgb(20, 17, 17);
+    font-family: Cabin sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.56px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+display: contents;
+
+}
+.teamspice1 {
+    transform: scaleX(-1); /* Görseli sağa döndürür */
+    transition: transform 0.5s ease; /* Yumuşak geçiş efekti */
+  }
+  
+  

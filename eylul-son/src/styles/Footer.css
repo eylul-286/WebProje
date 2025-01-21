@@ -1,0 +1,112 @@
+/* Footer genel stil */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 140px 550px;
+    margin-top: 75px;
+
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+    color: #f4f4f4;
+    
+    
+  }
+
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .company-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .social-media p{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-top: 25px;
+    color:#f4f4f4;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    color: #ffd700;
+    margin-bottom: 10px;
+
+  }
+  .footer-section p{
+
+    color: #f4f4f4;
+    margin-top: 15px;
+  }
+  .footer-section ul {
+    list-style: none;
+    padding: 10px;
+    list-style-type:disc;
+
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+    list-style-type:disc;
+  }
+  
+  .appointment-btn {
+    background-color: #fff;
+    color: #000;
+    padding: 20px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+  }
+  
+  .appointment-btn:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .footer-bottom p {
+  margin-bottom: -95px;
+  margin-top: 15px;
+  color: #f4f4f4;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+
+    }
+  
+    .footer-section {
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+  
