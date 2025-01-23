@@ -12,6 +12,10 @@ import CaseStudy from "./components/CaseStudy";
 import ChangeLog from "./components/ChangeLog";
 import Protection from "./components/Protection";
 import Not from "./components/Not";
+import Lincenses from "./components/Lincenses";
+import Blog from "./components/Blog";
+import Contact from "./components/Contact";
+
 
 
 
@@ -39,7 +43,9 @@ const App = () => {
         <Route path="/ChangeLog" element={<ChangeLog />} />
         <Route path="/Protection" element={<Protection />} />
         <Route path="/Not" element={<Not />} />
-
+        <Route path="/Lincenses" element={<Lincenses />} />
+        <Route path="/Blog" element={<Blog />} />
+        <Route path="/Contact" element={<Contact />} />
       
       </Routes>
     </Router>
